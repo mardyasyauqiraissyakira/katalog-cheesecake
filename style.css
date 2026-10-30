@@ -1,0 +1,13 @@
+/* Pengaturan dasar website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #4a2c2a;
+    line-height: 1.6;
+}
