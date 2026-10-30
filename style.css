@@ -1,3 +1,88 @@
+<<<<<<< HEAD
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0; /* Warna cream lembut ala toko kue */
+}
+
+#katalog {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#katalog h2 {
+    color: #5c4033;
+    margin-bottom: 10px;
+}
+
+#katalog p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-card h3 {
+    margin: 12px 0 6px 0;
+    color: #5c4033;
+    font-size: 18px;
+}
+
+.menu-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.harga {
+    display: block;
+    font-weight: bold;
+    color: #d2691e;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.menu-card button {
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-card button:hover {
+    background-color: #a0522d;
+=======
 /* Pengaturan dasar website */
 * {
     margin: 0;
@@ -10,4 +95,5 @@ body {
     background-color: #fff8f5;
     color: #4a2c2a;
     line-height: 1.6;
+>>>>>>> f0ab0188bcad888dab80b1b5cf6448a1214eba45
 }
